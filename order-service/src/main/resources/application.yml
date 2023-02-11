@@ -1,0 +1,16 @@
+#SWAGGER
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+# CATALOG SERVICE ROOT
+api:
+  catalog:
+    baseurl: http://localhost:8081
+
+logging:
+  level:
+    root: INFO
+    com.codeburps: DEBUG
+
+
